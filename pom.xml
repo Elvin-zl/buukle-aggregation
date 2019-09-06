@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <groupId>top.buukle</groupId>
+    <artifactId>buukle-aggregation</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <!--
+        这是个聚合项目,没有继承的作用,开发者可以灵活地修改这个pom(增删所需模块),
+        以方便当前所开发项目的统一install,而没必要每次都编译所有的项目.
+    -->
+    <modules>
+        <module>../buukle-main</module>
+        <module>../buukle-common</module>
+        <module>../buukle-cloud</module>
+        <module>../buukle-cms</module>
+        <module>../buukle-security</module>
+        <module>../buukle-www</module>
+        <module>../buukle-util</module>
+        <module>../buukle-drc</module>
+        <module>../buukle-srs</module>
+        <module>../buukle-pc</module>
+        <module>../buukle-tc</module>
+    </modules>
+</project>
