@@ -13,17 +13,8 @@
         以方便当前所开发项目的统一install,而没必要每次都编译所有的项目.
     -->
     <modules>
-        <module>../buukle-main</module>
-        <module>../buukle-common</module>
         <module>../buukle-cloud</module>
-        <module>../buukle-cms</module>
         <module>../buukle-security</module>
-        <module>../buukle-www</module>
-        <module>../buukle-util</module>
-        <module>../buukle-drc</module>
-        <module>../buukle-srs</module>
-        <module>../buukle-pc</module>
-        <module>../buukle-tc</module>
         <module>../buukle-wjs</module>
     </modules>
 </project>
