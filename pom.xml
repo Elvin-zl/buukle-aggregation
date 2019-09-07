@@ -11,10 +11,27 @@
     <!--
         这是个聚合项目,没有继承的作用,开发者可以灵活地修改这个pom(增删所需模块),
         以方便当前所开发项目的统一install,而没必要每次都编译所有的项目.
+
+        全部源码聚合如下 :
+
+        <modules>
+            <module>../buukle-main</module>
+            <module>../buukle-common</module>
+            <module>../buukle-cloud</module>
+            <module>../buukle-cms</module>
+            <module>../buukle-security</module>
+            <module>../buukle-www</module>
+            <module>../buukle-util</module>
+            <module>../buukle-drc</module>
+            <module>../buukle-srs</module>
+            <module>../buukle-pc</module>
+            <module>../buukle-tc</module>
+        </modules>
     -->
     <modules>
         <module>../buukle-cloud</module>
         <module>../buukle-security</module>
         <module>../buukle-wjs</module>
+        <module>../buukle-util</module>
     </modules>
 </project>
