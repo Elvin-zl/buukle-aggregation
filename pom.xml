@@ -13,7 +13,7 @@
         以方便当前所开发项目的统一install,而没必要每次都编译所有的项目.
 1        全部源码聚合如下 :
     -->
-    <!--<modules>
+    <modules>
         <module>../buukle-main</module>
         <module>../buukle-common</module>
         <module>../buukle-cloud</module>
@@ -26,11 +26,12 @@
         <module>../buukle-pc</module>
         <module>../buukle-tc</module>
         <module>../buukle-wjs</module>
-    </modules>-->
-
-    <modules>
-        <module>../buukle-cloud</module>
-        <module>../buukle-security</module>
-        <module>../buukle-wjs</module>
+        <module>../buukle-config</module>
     </modules>
+
+<!--    <modules>-->
+<!--        <module>../buukle-cloud</module>-->
+<!--        <module>../buukle-security</module>-->
+<!--        <module>../buukle-wjs</module>-->
+<!--    </modules>-->
 </project>
