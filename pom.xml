@@ -26,11 +26,12 @@
         <module>../buukle-pc</module>
         <module>../buukle-tc</module>
         <module>../buukle-wjs</module>
+        <module>../buukle-config</module>
     </modules>
 
-    <!--<modules>
-        <module>../buukle-cloud</module>
-        <module>../buukle-security</module>
-        <module>../buukle-wjs</module>
-    </modules>-->
+<!--    <modules>-->
+<!--        <module>../buukle-cloud</module>-->
+<!--        <module>../buukle-security</module>-->
+<!--        <module>../buukle-wjs</module>-->
+<!--    </modules>-->
 </project>
