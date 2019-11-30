@@ -25,8 +25,8 @@
         <module>../buukle-srs</module>
         <module>../buukle-pc</module>
         <module>../buukle-tc</module>
-        <module>../buukle-wjs</module>
         <module>../buukle-config</module>
+        <module>../buukle-wjs</module>
     </modules>
 
 <!--    <modules>-->

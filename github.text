@@ -34,3 +34,10 @@ git clone https://github.com/Elvin-zl/buukle-doc.git
 git clone https://github.com/Elvin-zl/buukle-assistance.git
 git clone https://github.com/Elvin-zl/buukle-wjs.git
 git clone https://github.com/Elvin-zl/buukle-config.git
+
+
+maven 打包deploy：每次升级版本号都需要客户端同样升级 ，其中要注意 : jar升级第三方依赖时，自身也需要升级版本号并deploy
+
+
+
+
