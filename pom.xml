@@ -28,6 +28,7 @@
         <module>../buukle-tc</module>
         <module>../buukle-config</module>
         <module>../buukle-wjs</module>
+        <module>../buukle-activiti</module>
     </modules>
 
 <!--    <modules>-->
